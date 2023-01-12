@@ -1,0 +1,37 @@
+h1{
+  text-align: center;
+}
+
+.container{
+  width: 320px;
+  margin: auto;
+}
+/*320 for 100 100 100 extra 20 for border*/
+.box{
+  height: 100px;
+  width: 100px;
+  float: left;
+  cursor: pointer;
+  font-size: 70px;
+  text-align: center;
+}
+
+.box:hover{
+  background-color: lightgrey;
+}
+
+#box3, #box6 ,#box9{
+  border-left: 5px solid #000;
+}
+
+#box1, #box4 ,#box7{
+  border-right: 5px solid #000;
+}
+
+#box1, #box2 ,#box3{
+  border-bottom: 5px solid #000;
+}
+
+#box4, #box5 ,#box6{
+  border-bottom: 5px solid #000;
+}
